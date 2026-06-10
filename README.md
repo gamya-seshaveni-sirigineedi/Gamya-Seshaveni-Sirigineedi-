@@ -7,13 +7,13 @@
 </head>
 <body>
     <header>
-        <h1>S. Divya</h1>
-        <p>AI & Data Science Student</p>
+        <h1>S.Gamya</h1>
+        <p>EEE Student</p>
     </header>
 
     <section>
         <h2>About Me</h2>
-        <p>I am a B.Tech AI&DS student passionate about Data Science and Web Development.</p>
+        <p>I am a B.Tech EEE student passionate about Data Science and Web Development.</p>
     </section>
 
     <section>
