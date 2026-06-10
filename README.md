@@ -1,20 +1,17 @@
+const projects = [
+    {
+        name: "Retail Sales Analysis",
+        description: "Analyzed sales data using Python."
+    },
+    {
+        name: "Plantation Drive Project",
+        description: "Studied impact of plantation drives on local temperature."
+    }
+];
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background: #f4f4f4;
-}
+let output = "";
+projects.forEach(project => {
+    output += `<h3>${project.name}</h3><p>${project.description}</p>`;
+});
 
-header {
-    text-align: center;
-    background: #007bff;
-    color: white;
-    padding: 20px;
-}
-
-section {
-    background: white;
-    margin: 15px 0;
-    padding: 15px;
-    border-radius: 10px;
-}
+document.getElementById("projects").innerHTML = output;
